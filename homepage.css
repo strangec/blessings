@@ -1,0 +1,11 @@
+@font-face {
+font-family: 'Minipax';
+src: url('fonts/Minipax/Minipax-Regular.woff') format('woff');
+}
+
+.center {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
