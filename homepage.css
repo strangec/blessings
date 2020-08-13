@@ -19,7 +19,16 @@ src: url('fonts/Minipax/Minipax-Regular.woff') format('woff');
   transform: rotate(15deg);
 }
 
-.first {
-  
+.downloads {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 100;
 
+}
+
+.folder1 {
+  position: absolute;
+  height: 200px;
+  width: 50%;
 }
