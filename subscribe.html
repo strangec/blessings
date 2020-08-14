@@ -10,16 +10,13 @@
 
 </head>
 <body>
-  <form name="submit-to-google-sheet" class="form">
-    <input name="email" type="text" placeholder="I'll be in touch" required>
-    <button type="submit" placeholder="send">Share e-mail</button>
+  <form name="submit-to-google-sheet" class="email">
+    <input name="email" type="email" placeholder="I'll be in touch" required>
+    <button type="submit" class="button">Share e-mail</button>
   </form>
 
-  </body>
-
-
   <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzjjRyF3hCtpH4OKNbjP-oH9FvRJzzgwYKKTD9KHzZxqTh8iFY/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx192CtcGgAdOzKTMEjh9W-h8cilM1Vk6vOkAycWR3RhesaMZI/exec'
     const form = document.forms['submit-to-google-sheet']
 
     form.addEventListener('submit', e => {

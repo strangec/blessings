@@ -22,24 +22,6 @@
             </a>
 
 
-          <form name="submit-to-google-sheet">
-            <input name="email" type="email" placeholder="I'll be in touch" required>
-            <button type="submit">Share e-mail</button>
-          </form>
-
-          <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbx192CtcGgAdOzKTMEjh9W-h8cilM1Vk6vOkAycWR3RhesaMZI/exec'
-            const form = document.forms['submit-to-google-sheet']
-
-            form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => console.log('Success!', response))
-                .catch(error => console.error('Error!', error.message))
-            })
-          </script>
-
-
 
     </p>
 
