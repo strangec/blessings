@@ -2,11 +2,12 @@ body{
 
 }
 
+/*main page*/
 .center {
   display:block;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 
 .angel {
@@ -16,6 +17,13 @@ body{
   transform: rotate(15deg);
 }
 
+/*linktree*/
+.links {
+
+
+}
+
+/*archive*/
 .downloads {
   position: fixed;
   top: 0px;

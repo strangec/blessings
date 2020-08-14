@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="homepage.css">
+    <title>Grab Bag of Blessings</title>
+
+  </head>
+  <body>
+    <input name="message" type="text" placeholder="message" required>
+
+
+    <button type="submit" placeholder="send">Send</button>
+  </form>
+
+  </p>
+  </body>
+
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyR9VijfacwR4XE7HjEkLvimoi36uRGvrARPY-XtUSeV-raTTs/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
