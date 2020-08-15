@@ -19,6 +19,9 @@ body{
 
 /*linktree*/
 .links {
+  margin: auto;
+    width: 100%;
+    heigh: 100%
 
 
 }
@@ -26,7 +29,7 @@ body{
 /*submit*/
 
 .email{
-background-color: purple;
+
 }
 
 /*archive*/
@@ -36,6 +39,17 @@ background-color: purple;
   right: 0px;
   z-index: 100;
 
+}
+
+.grabbag{
+  width: 70%;
+}
+
+.grabbag:hover{
+  filter:drop-shadow(15px 15px 15px honeydew);
+  border-style: dotted;
+  border-radius: 20px;
+  color: honeydew;
 }
 
 .folder1 {
