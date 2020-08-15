@@ -48,7 +48,7 @@ body{
 .grabbag:hover{
   filter:drop-shadow(15px 15px 15px honeydew);
   border-style: dotted;
-  border-radius: 20px;
+  border-radius: 50%;
   color: honeydew;
 }
 
