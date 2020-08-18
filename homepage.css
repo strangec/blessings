@@ -107,3 +107,9 @@ opacity: 70%;
   height: 200px;
   width: 50%;
 }
+
+#questions{
+  background-image:linear-gradient(chartreuse, papayawhip);
+  color: white;
+  font-size: 140%;
+}
