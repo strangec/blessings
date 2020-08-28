@@ -130,3 +130,25 @@ position:relative;
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
+.blessing-container{
+  display:inline-block;
+}
+
+.one{
+  position:absolute;
+  top:12em;
+  left:55em;
+}
+
+.two{
+  position:absolute;
+  top:5em;
+  left:10em;
+}
+
+.three{
+  position:absolute;
+  top:20em;
+  left:37em;
+}
