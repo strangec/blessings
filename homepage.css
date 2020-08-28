@@ -87,20 +87,8 @@ opacity: 70%;
 
 .download-button:hover{
   filter:drop-shadow(15px 15px 15px honeydew);
-  border-style: dotted;
-  border-radius: 50%;
-  color: honeydew;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-name: Rotate;
-  animation-duration: 25s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-name: Rotate;
-  animation-duration: 25s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
 }
+
 
 .folder1 {
   position: absolute;
