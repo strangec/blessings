@@ -89,7 +89,29 @@ opacity: 70%;
   filter:drop-shadow(15px 15px 15px honeydew);
 }
 
+.pic{
+  width:2394px;
+  height:auto;
 
+}
+
+.button-container{
+position:absolute;
+display:inline-block;
+position:relative;
+}
+
+.button-button{
+  position:absolute;
+  top:23em;
+  left:55em;
+  height:100px;
+  width:auto;
+
+
+}
+
+/*subscribe*/
 .folder1 {
   position: absolute;
   height: 200px;
@@ -100,4 +122,11 @@ opacity: 70%;
   background-image:linear-gradient(chartreuse, papayawhip);
   color: white;
   font-size: 140%;
+}
+
+/*desktop*/
+.desktop{
+  background-image:url("Assets/blob4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
