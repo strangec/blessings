@@ -126,9 +126,10 @@ position:relative;
 
 /*desktop*/
 .desktop{
-
+  background-image:url("Assets/desktop.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
 .blessing-container{
@@ -162,5 +163,9 @@ position:relative;
 }
 
 #icon:hover{
+  filter:drop-shadow(15px 15px 15px honeydew);
+}
+
+#desktop-button:hover{
   filter:drop-shadow(15px 15px 15px honeydew);
 }
