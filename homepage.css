@@ -153,6 +153,14 @@ position:relative;
   left:37em;
 }
 
+#icon{
+  position:fixed;
+  top:1em;
+  left:79em;
+  width: 10%;
+  height: auto;
+}
+
 #icon:hover{
   filter:drop-shadow(15px 15px 15px hotpink);
 }
