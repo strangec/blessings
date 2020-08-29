@@ -73,7 +73,7 @@ opacity: 70%;
 }
 
 /*archive*/
-.downloads {
+.dropdown {
   position: fixed;
   top: 0px;
   right: 0px;
@@ -83,10 +83,44 @@ opacity: 70%;
 
 .download-button{
   width: 70%;
+  right:0px;
 }
 
 .download-button:hover{
   filter:drop-shadow(15px 15px 15px honeydew);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+filter:drop-shadow(15px 15px 15px honeydew);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display:grid;
+  text-align: center;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.dropdown-pic{
+  width: 60%;
+  margin-right:25%;
 }
 
 .pic{
@@ -126,7 +160,7 @@ position:relative;
 
 /*desktop*/
 .desktop{
-  background-image:url("Assets/desktop.png");
+  display:inline-block;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
@@ -158,7 +192,7 @@ position:relative;
   position:fixed;
   top:1em;
   left:79em;
-  width: 10%;
+  width: 9.5%;
   height: auto;
 }
 
