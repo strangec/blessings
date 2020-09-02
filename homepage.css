@@ -130,8 +130,6 @@ filter:drop-shadow(15px 15px 15px honeydew);
 }
 
 .button-container{
-position:absolute;
-display:inline-block;
 position:relative;
 }
 
