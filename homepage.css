@@ -5,6 +5,11 @@
   font-style: normal;
 }
 
+@font-face{
+  font-family: 'AUTHENTIC sans';
+  src: url('/Users/charlottestrange/git/fonts/AUTHENTIC SANS 190226/OTF/AUTHENTICSans-60.otf') format('otf')
+}
+
 body{
 
 }
@@ -200,4 +205,16 @@ position:relative;
 
 #desktop-button:hover{
   filter:drop-shadow(15px 15px 15px honeydew);
+}
+
+#about{
+  text-align: left;
+  background-image:linear-gradient(to bottom, rgba(61, 251, 178, 0), #3dfbb2);
+  color:black;
+  font-family: 'AUTHENTIC sans';
+
+}
+
+#about:after{
+  background-image:linear-gradient(to top, rgba(61, 251, 178, 0), #3dfbb2);
 }
